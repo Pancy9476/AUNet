@@ -125,4 +125,4 @@ if True:
         'model_state_dict': model.state_dict(),
         # "optimizer_state_dict": optimizer.state_dict()
     }
-    torch.save(checkpoint, os.path.join("models/MSRS-unet-6-" + str(epoch+1) + '.pth'))
+    torch.save(checkpoint, os.path.join("models/MSRS" + str(epoch+1) + '.pth'))
